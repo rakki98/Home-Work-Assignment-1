@@ -102,8 +102,7 @@ var unifiedServer=function(request,response){
                           response.end(JSON.stringify(display));
                         }
                        else
-                         response.end("Invalid route :(");
-                        
+                         response.end("Invalid route :( ");                       
 
 
                     });
@@ -136,8 +135,7 @@ handlers.notFound=function(data,callback){
 
 // Define the request router
 var router={
-    'hello':handlers.hello,
-    
+    'hello':handlers.hello  
     
 };
 
